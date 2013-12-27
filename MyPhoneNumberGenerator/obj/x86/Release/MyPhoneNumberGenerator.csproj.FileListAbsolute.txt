@@ -1,0 +1,22 @@
+D:\Projects\MyPNG\MyPNG\bin\Release\My Phone Number Generator.exe.manifest
+D:\Projects\MyPNG\MyPNG\bin\Release\My Phone Number Generator.application
+D:\Projects\MyPNG\MyPNG\bin\Release\My Phone Number Generator.exe
+D:\Projects\MyPNG\MyPNG\bin\Release\My Phone Number Generator.pdb
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\Interop.SHDocVw.dll
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\MyPhoneNumberGenerator.csproj.ResolveComReference.cache
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\MyPhoneNumberGenerator.AboutBox.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\MyPhoneNumberGenerator.ChildForm.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\MyPhoneNumberGenerator.MainForm.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\MyPhoneNumberGenerator.Properties.Resources.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\MyPhoneNumberGenerator.SetupForm.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\MyPhoneNumberGenerator.csproj.GenerateResource.Cache
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\My Phone Number Generator.exe.licenses
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\My Phone Number Generator.TrustInfo.xml
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\My Phone Number Generator.exe.manifest
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\My Phone Number Generator.application
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\My Phone Number Generator.exe
+D:\Projects\MyPNG\MyPNG\obj\x86\Release\My Phone Number Generator.pdb
+D:\Projects\MyPhoneNumberGenerator\MyPNG\obj\x86\Release\Interop.SHDocVw.dll
+D:\Projects\MyPhoneNumberGenerator\MyPNG\obj\x86\Release\MyPhoneNumberGenerator.csproj.ResolveComReference.cache
+D:\Projects\MyPhoneNumberGenerator\MyPNG\obj\x86\Release\My Phone Number Generator.exe
+D:\Projects\MyPhoneNumberGenerator\MyPNG\obj\x86\Release\My Phone Number Generator.pdb

@@ -1,0 +1,20 @@
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\Interop.SHDocVw.dll
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\MyPhoneNumberGenerator.csproj.ResolveComReference.cache
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\bin\Debug\My Phone Number Generator.exe.config
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\bin\Debug\My Phone Number Generator.exe.manifest
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\bin\Debug\My Phone Number Generator.application
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\bin\Debug\My Phone Number Generator.exe
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\bin\Debug\My Phone Number Generator.pdb
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\MyPhoneNumberGenerator.csprojResolveAssemblyReference.cache
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\MyPhoneNumberGenerator.AboutBox.resources
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\MyPhoneNumberGenerator.ChildForm.resources
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\MyPhoneNumberGenerator.MainForm.resources
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\MyPhoneNumberGenerator.Properties.Resources.resources
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\MyPhoneNumberGenerator.SetupForm.resources
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\MyPhoneNumberGenerator.csproj.GenerateResource.Cache
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\My Phone Number Generator.exe.licenses
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\My Phone Number Generator.TrustInfo.xml
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\My Phone Number Generator.exe.manifest
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\My Phone Number Generator.application
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\My Phone Number Generator.exe
+D:\Projects\MyPhoneNumberGenerator\MyPhoneNumberGenerator\obj\x86\Debug\My Phone Number Generator.pdb

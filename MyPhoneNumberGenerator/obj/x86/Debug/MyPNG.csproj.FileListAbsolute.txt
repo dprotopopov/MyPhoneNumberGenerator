@@ -1,0 +1,14 @@
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\Interop.SHDocVw.dll
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\MyPNG.csproj.ResolveComReference.cache
+D:\Projects\MyPNG\MyPNG\bin\Debug\MyPhoneNumberGenerator.exe
+D:\Projects\MyPNG\MyPNG\bin\Debug\MyPhoneNumberGenerator.pdb
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\MyPhoneNumberGenerator.AboutBox.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\MyPhoneNumberGenerator.ChildForm.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\MyPhoneNumberGenerator.MainForm.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\MyPhoneNumberGenerator.Properties.Resources.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\MyPhoneNumberGenerator.SetupForm.resources
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\MyPhoneNumberGenerator.exe
+D:\Projects\MyPNG\MyPNG\obj\x86\Debug\MyPhoneNumberGenerator.pdb

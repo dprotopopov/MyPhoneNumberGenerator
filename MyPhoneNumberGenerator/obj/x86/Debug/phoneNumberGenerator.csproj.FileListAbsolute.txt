@@ -1,0 +1,14 @@
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\phoneNumberGenerator.AboutBox.resources
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\phoneNumberGenerator.mainForm.resources
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\phoneNumberGenerator.Properties.Resources.resources
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\bin\Debug\phoneNumberGenerator.exe
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\bin\Debug\phoneNumberGenerator.pdb
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\phoneNumberGenerator.exe
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\phoneNumberGenerator.pdb
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\phoneNumberGenerator.ChildForm.resources
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\phoneNumberGenerator.SetupForm.resources
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\Interop.SHDocVw.dll
+D:\Projects\phoneNumberGenerator\phoneNumberGenerator\obj\x86\Debug\phoneNumberGenerator.csproj.ResolveComReference.cache
