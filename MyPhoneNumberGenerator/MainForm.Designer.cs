@@ -140,7 +140,7 @@
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
-            this.ribbonControl1.Size = new System.Drawing.Size(894, 155);
+            this.ribbonControl1.Size = new System.Drawing.Size(894, 158);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl1.Toolbar.ItemLinks.Add(this.barButtonItem2);
             this.ribbonControl1.Toolbar.ItemLinks.Add(this.barButtonItem3);
@@ -157,9 +157,9 @@
             // barButtonItem2
             // 
             this.barButtonItem2.Caption = "New";
-            this.barButtonItem2.Glyph = global::MyPhoneNumberGenerator.Properties.Resources.new_16x16;
+            this.barButtonItem2.Glyph = global::MyPhoneNumberGenerator.Properties.Resources.wizard_16x16;
             this.barButtonItem2.Id = 2;
-            this.barButtonItem2.LargeGlyph = global::MyPhoneNumberGenerator.Properties.Resources.new_32x32;
+            this.barButtonItem2.LargeGlyph = global::MyPhoneNumberGenerator.Properties.Resources.wizard_32x32;
             this.barButtonItem2.Name = "barButtonItem2";
             this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
             // 
@@ -207,7 +207,7 @@
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem2);
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem3);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
-            this.ribbonPageGroup1.Text = "Create and Save";
+            this.ribbonPageGroup1.Text = "Create";
             // 
             // ribbonPageGroup2
             // 
@@ -219,14 +219,14 @@
             // 
             this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem4);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
-            this.ribbonPageGroup3.Text = "Info";
+            this.ribbonPageGroup3.Text = "Help";
             // 
             // ribbonStatusBar1
             // 
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 579);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 582);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(894, 31);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(894, 28);
             // 
             // defaultLookAndFeel1
             // 
