@@ -200,7 +200,7 @@
             this.ribbonPageGroup2,
             this.ribbonPageGroup3});
             this.ribbonPage1.Name = "ribbonPage1";
-            this.ribbonPage1.Text = "Application";
+            this.ribbonPage1.Text = "Home";
             // 
             // ribbonPageGroup1
             // 

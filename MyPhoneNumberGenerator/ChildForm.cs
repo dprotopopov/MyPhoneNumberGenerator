@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using System.Collections;
 using System.Diagnostics;
 using System.IO;
 
@@ -39,7 +33,7 @@ namespace MyPhoneNumberGenerator
 
             for (i = _mask.Length; --i > 0; )
                 for (j = i; j-- > 0; )
-                    if (_mask.Substring(i, 1).CompareTo(_mask.Substring(j, 1)) < 0)
+                    if (String.Compare(_mask.Substring(i, 1), _mask.Substring(j, 1), StringComparison.Ordinal) < 0)
                     {
                         _mask = _mask.Substring(0, j) + _mask.Substring(i, 1) + _mask.Substring(j + 1, i - j - 1) + _mask.Substring(j, 1) + _mask.Substring(i + 1);
                         int k = _permutation[i]; _permutation[i] = _permutation[j]; _permutation[j] = k;
@@ -64,12 +58,11 @@ namespace MyPhoneNumberGenerator
 
             _format = String.Format("D{0}", _digits);
 
-            this.backgroundWorker1.RunWorkerAsync(this);
+            backgroundWorker1.RunWorkerAsync(this);
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
-            BackgroundWorker worker = sender as BackgroundWorker;
             ChildForm This = e.Argument as ChildForm;
             int i, j;
             for (i = 0; i < This._mask.Length; i++)
@@ -119,12 +112,12 @@ namespace MyPhoneNumberGenerator
 
         static private String Spell2Number(String spell)
         {
-            String search = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-            String replace = "2223334445556667777888999922233344455566677778889999222233333444455556666777788889999222233333444455556666777788889999";
+            const string search = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+            const string replace = "2223334445556667777888999922233344455566677778889999222233333444455556666777788889999222233333444455556666777788889999";
             String number = "";
             for (int i = 0; i < spell.Length; i++)
             {
-                int j = search.IndexOf(spell.Substring(i, 1));
+                int j = search.IndexOf(spell.Substring(i, 1), StringComparison.Ordinal);
                 number += (j >= 0) ? replace.Substring(j, 1) : spell.Substring(i, 1);
             }
             return number;
@@ -134,23 +127,23 @@ namespace MyPhoneNumberGenerator
 
         private void AddResult(String number, String spell)
         {
-            if (this.listView1.InvokeRequired)
+            if (listView1.InvokeRequired)
             {
                 AddResultCallback d = new AddResultCallback(AddResult);
                 var arr = new object[] { number, spell };
-                this.Invoke(d, arr);
+                Invoke(d, arr);
             }
             else
             {
                 ListViewItem lvi = new ListViewItem(number);
                 lvi.SubItems.Add(spell);
-                this.listView1.Items.Add(lvi);
+                listView1.Items.Add(lvi);
             }
         }
         public void SaveAs(String fileName)
         {
             StreamWriter outfile = new StreamWriter(fileName);
-            foreach (ListViewItem lvi in this.listView1.Items)
+            foreach (ListViewItem lvi in listView1.Items)
             {
                 outfile.WriteLine(lvi.Text);
             }
@@ -162,11 +155,8 @@ namespace MyPhoneNumberGenerator
             if (_navigatingCountdown == 0)
             {
                 e.Cancel = true;
-                SHDocVw.InternetExplorer IE = new SHDocVw.InternetExplorer();
-                object Empty = null;
-                String URL = e.Url.ToString();
-                IE.Visible = true;
-                IE.Navigate(URL, ref Empty, ref Empty, ref Empty, ref Empty);
+                String url = e.Url.ToString();
+                Process.Start(url);
             }
         }
 
